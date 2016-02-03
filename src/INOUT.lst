@@ -1,0 +1,110 @@
+HJWasm v2.13, Feb  3 2016
+INOUT.ASM
+
+                                ;--- regression test
+                                ;--- code generation
+                                ;--- IN/OUT
+
+                                	.286
+                                	.model small
+00000000                    *   _TEXT segment WORD  PUBLIC 'CODE'
+                            *   _TEXT ends
+00000000                    *   _DATA segment WORD  PUBLIC 'DATA'
+                            *   _DATA ends
+                            *   DGROUP group _DATA
+                            *   assume cs:_TEXT,ds:DGROUP,ss:DGROUP
+                                	.386
+
+                                	.data
+00000000                    *   _DATA segment
+                            *   assume cs:ERROR
+
+00000000  00000000              vd	dd 0
+00000004  0000                  vw	dw 0
+00000006  00                    vb	db 0
+
+00000000                        	.code
+00000007                    *   _DATA ends
+00000000                    *   _TEXT segment
+                            *   assume cs:_TEXT
+
+00000000  E420                  	in al,20h
+00000002  E520                  	in ax,20h
+00000004  66E520                	in eax,20h
+00000007  EC                    	in al,dx
+00000008  ED                    	in ax,dx
+00000009  66ED                  	in eax,dx
+0000000B  6C                    	insb
+0000000C  6D                    	insw
+0000000D  666D                  	insd
+0000000F  6C0000                	ins [vb],dx
+00000012  6D0000                	ins [vw],dx
+00000015  666D0000              	ins [vd],dx
+00000019  6C0000                	ins es:[vb],dx
+0000001C  E620                  	out 20h,al
+0000001E  E720                  	out 20h,ax
+00000020  66E720                	out 20h,eax
+00000023  EE                    	out dx,al
+00000024  EF                    	out dx,ax
+00000025  66EF                  	out dx,eax
+00000027  6E                    	outsb
+00000028  6F                    	outsw
+00000029  666F                  	outsd
+0000002B  6E                    	outs dx,[vb]
+0000002C  6F                    	outs dx,[vw]
+0000002D  666F                  	outs dx,[vd]
+0000002F  6E                    	outs dx,ds:[vb]
+00000030  266E                  	outs dx,es:[vb]
+00000032  2E6E                  	outs dx,cs:[vb]
+00000034  C3                    	ret
+
+                                	end
+00000035                    *   _TEXT ends
+
+
+Binary Map:
+
+Segment                  Pos(file)     RVA  Size(fil) Size(mem)
+---------------------------------------------------------------
+_TEXT                           0        0        35        35
+_DATA                          36        0         7         7
+---------------------------------------------------------------
+                                                  3D        3D
+
+
+Macros:
+
+                N a m e                 Type
+
+@CatStr  . . . . . . . . . . . .        Func
+@Environ . . . . . . . . . . . .        Func
+@InStr . . . . . . . . . . . . .        Func
+@SizeStr . . . . . . . . . . . .        Func
+@SubStr  . . . . . . . . . . . .        Func
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+_TEXT  . . . . . . . . . . . . .        16 Bit   0035     Word    Public  'CODE'
+DGROUP . . . . . . . . . . . . .        GROUP
+_DATA  . . . . . . . . . . . . .        16 Bit   0007     Word    Public  'DATA'
+
+
+Symbols:
+
+                N a m e                 Type       Value     Attr
+
+@CodeSize  . . . . . . . . . . .        Number             0h 
+@DataSize  . . . . . . . . . . .        Number             0h 
+@Interface . . . . . . . . . . .        Number             0h 
+@Model . . . . . . . . . . . . .        Number             2h 
+@code  . . . . . . . . . . . . .        Text   _TEXT
+@data  . . . . . . . . . . . . .        Text   DGROUP
+@stack . . . . . . . . . . . . .        Text   DGROUP
+vb . . . . . . . . . . . . . . .        Byte               6h _DATA 
+vd . . . . . . . . . . . . . . .        DWord              0h _DATA 
+vw . . . . . . . . . . . . . . .        Word               4h _DATA 
+
+INOUT.ASM: 48 lines, 2 passes, 0 ms, 0 warnings, 0 errors
