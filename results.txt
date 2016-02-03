@@ -1,0 +1,145 @@
+00000014: FD 7D
+0000008E: F1 71
+00000093: F1 71
+0000009C: F9 79
+0000009D: 05 0D
+000000A2: F5 75
+000000A7: F5 75
+000000B0: FD 7D
+000000B1: 05 0D
+000000C5: 04 0C
+10 unequal bytes found cmp(AVX1.BIN, ..\exp\AVX1.EXP)
+0000000C: FD 7D
+0000004A: F1 71
+0000004F: F5 75
+00000148: F9 F1
+0000014A: 0B 03
+0000014C: F9 F1
+0000014E: 0B 03
+00000150: F9 F1
+00000152: 0B 03
+00000154: F9 F1
+10 unequal bytes found cmp(AVX4.BIN, ..\exp\AVX4.EXP)
+00000099: F8 F9
+00000169: F8 F9
+0000016E: F8 F9
+3 unequal bytes found cmp(AVX641.BIN, ..\exp\AVX641.EXP)
+0000000A: 85 23
+1 unequal bytes found cmp(EXPANS37.BIN, ..\exp\EXPANS37.EXP)
+00000000: 85 23
+00000006: 85 23
+2 unequal bytes found cmp(EXPANS40.BIN, ..\exp\EXPANS40.EXP)
+00000003: 00 FF
+00000004: 00 FF
+2 unequal bytes found cmp(HIGHWORD.BIN, ..\exp\HIGHWORD.EXP)
+..\src\HLL4.ASM(11) : Error A2102: Symbol not defined : @C0002
+INOUT.BIN, ..\exp\INOUT.EXP: file sizes differ
+INVOK644.BIN, ..\exp\INVOK644.EXP: file sizes differ
+00000000: 33 B9
+00000001: C9 00
+00000002: E8 00
+00000003: F9 00
+00000004: FF 00
+00000005: FF E8
+00000006: FF F6
+00000007: 41 FF
+00000008: B9 FF
+00000009: 04 FF
+10 unequal bytes found cmp(INVOK646.BIN, ..\exp\INVOK646.EXP)
+INVOK649.BIN, ..\exp\INVOK649.EXP: file sizes differ
+INVOK64A.BIN, ..\exp\INVOK64A.EXP: file sizes differ
+MEMANY.BIN, ..\exp\MEMANY.EXP: file sizes differ
+0000004D: 7E 7F
+00000053: 7E 7F
+0000005C: 7E 7F
+3 unequal bytes found cmp(MOVDQ16.BIN, ..\exp\MOVDQ16.EXP)
+00000057: 7E 7F
+0000005E: 7E 7F
+00000065: 7E 7F
+3 unequal bytes found cmp(MOVDQ32.BIN, ..\exp\MOVDQ32.EXP)
+00000153: 7E 7F
+00000162: 7E 7F
+00000172: 7E 7F
+0000017B: 7E 7F
+00000185: 7E 7F
+0000018E: 7E 7F
+00000196: 7E 7F
+7 unequal bytes found cmp(MOVDQ64.BIN, ..\exp\MOVDQ64.EXP)
+00000048: 85 23
+00000051: 85 23
+2 unequal bytes found cmp(RTCOND3.BIN, ..\exp\RTCOND3.EXP)
+STRING2.BIN, ..\exp\STRING2.EXP: file sizes differ
+STRING3.BIN, ..\exp\STRING3.EXP: file sizes differ
+STRING64.BIN, ..\exp\STRING64.EXP: file sizes differ
+VARAR642.BIN, ..\exp\VARAR642.EXP: file sizes differ
+VARARG64.BIN, ..\exp\VARARG64.EXP: file sizes differ
+ALIGN3.ERR, ..\exp\ALIGN3.EXP: file sizes differ
+AVX2.ERR, ..\exp\AVX2.EXP: file sizes differ
+AVX3.ERR, ..\exp\AVX3.EXP: file sizes differ
+CALL3.ERR, ..\exp\CALL3.EXP: file sizes differ
+DATA7.ERR, ..\exp\DATA7.EXP: file sizes differ
+EXPR5.ERR, ..\exp\EXPR5.EXP: file sizes differ
+FLOAT8.ERR, ..\exp\FLOAT8.EXP: file sizes differ
+INDIR1.ERR, ..\exp\INDIR1.EXP: file sizes differ
+MACRO27.ERR, ..\exp\MACRO27.EXP: file sizes differ
+MOV645.ERR, ..\exp\MOV645.EXP: file sizes differ
+SHLD.ERR, ..\exp\SHLD.EXP: file sizes differ
+STRUCT29.ERR, ..\exp\STRUCT29.EXP: file sizes differ
+STRUCT37.ERR, ..\exp\STRUCT37.EXP: file sizes differ
+STRUCT41.ERR, ..\exp\STRUCT41.EXP: file sizes differ
+..\src\PROC641.ASC(17) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(17) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(17) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(22) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(22) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(23) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(28) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(28) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(29) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(34) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(34) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(35) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(41) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(41) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(41) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(46) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(46) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(47) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(52) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(52) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(53) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(58) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(58) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(59) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(65) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(65) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(65) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(70) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(70) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(71) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(76) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(76) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(77) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(82) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(82) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(83) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(89) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(89) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(89) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(89) : Error A2209: Syntax error: xmm7
+..\src\PROC641.ASC(89) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(89) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(94) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(94) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(94) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(94) : Error A2209: Syntax error: xmm7
+..\src\PROC641.ASC(95) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(95) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(100) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(100) : Error A2209: Syntax error: xmm6
+..\src\PROC641.ASC(100) : Error A2049: Invalid instruction operands
+..\src\PROC641.ASC(100) : Fatal error A1113: Too many errors
+DBGCV.OBJ, ..\exp\DBGCV.EXP: file sizes differ
+0000001C: BF B7
+00000031: F4 FC
+2 unequal bytes found cmp(LINNUM.OBJ, ..\exp\LINNUM.EXP)

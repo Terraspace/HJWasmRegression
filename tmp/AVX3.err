@@ -1,0 +1,35 @@
+..\src\AVX3.ASO(19) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(20) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(21) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(22) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(23) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(28) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(29) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(31) : Error A2209: Syntax error: , xmm1
+..\src\AVX3.ASO(35) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(36) : Error A2209: Syntax error: , m128
+..\src\AVX3.ASO(37) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(38) : Error A2209: Syntax error: , m64
+..\src\AVX3.ASO(39) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(41) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(42) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(43) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(45) : Error A2209: Syntax error: , m128
+..\src\AVX3.ASO(47) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(48) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(49) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(51) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(53) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(54) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(55) : Error A2209: Syntax error: , ymm2
+..\src\AVX3.ASO(56) : Error A2209: Syntax error: , ymm2
+..\src\AVX3.ASO(63) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(64) : Error A2209: Syntax error: , m256
+..\src\AVX3.ASO(74) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(78) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(79) : Error A2209: Syntax error: , xmm2
+..\src\AVX3.ASO(80) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(81) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(82) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(83) : Error A2049: Invalid instruction operands
+..\src\AVX3.ASO(84) : Error A2049: Invalid instruction operands

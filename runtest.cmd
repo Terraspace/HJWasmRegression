@@ -3,12 +3,12 @@ REM
 REM Set version to test
 REM
 SET ASMX=%1
-if (%1)==() SET ASMX=\HJWASM\hjwasm.exe
+if (%1)==() SET ASMX=D:\HJWasm\HJWasm2.13.1s\HJWasm2.13.1s\x64\Release\hjwasm.exe
 REM
 REM Optional linker for the test
 REM
-REM SET OWLINK=\JWASM\jwlink.exe
-REM SET OWLINK=\ASMC\linkw.exe
+REM SET OWLINK=c:\JWASM\jwlink.exe
+REM SET OWLINK=c:\JWASM\jwlink.exe
 REM
 REM MS LINK >= 8.0 is needed for testing SAFESEH.
 REM

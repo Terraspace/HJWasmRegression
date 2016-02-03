@@ -1,0 +1,30 @@
+..\src\ABS1.ASO(13) : Error A2228: Invalid operand for SEG:    0
+..\src\ABS1.ASO(16) : Error A2228: Invalid operand for LENGTH: 0
+..\src\ABS1.ASO(17) : Error A2228: Invalid operand for SIZE:   0
+..\src\ABS1.ASO(18) : Error A2228: Invalid operand for LENGTHOF: 0
+..\src\ABS1.ASO(19) : Error A2228: Invalid operand for SIZEOF: 0
+..\src\ABS1.ASO(21) : Error A2228: Invalid operand for SEG: bx
+..\src\ABS1.ASO(22) : Error A2228: Invalid operand for OFFSET: bx
+..\src\ABS1.ASO(23) : Error A2228: Invalid operand for LENGTH: bx
+..\src\ABS1.ASO(24) : Error A2228: Invalid operand for SIZE: bx
+..\src\ABS1.ASO(25) : Error A2228: Invalid operand for LENGTHOF: bx
+..\src\ABS1.ASO(26) : Error A2228: Invalid operand for SIZEOF: bx
+..\src\ABS1.ASO(27) : Error A2228: Invalid operand for HIGH: bx
+..\src\ABS1.ASO(28) : Error A2228: Invalid operand for LOW: bx
+..\src\ABS1.ASO(29) : Error A2228: Invalid operand for HIGHWORD: bx
+..\src\ABS1.ASO(30) : Error A2228: Invalid operand for LOWWORD: bx
+..\src\ABS1.ASO(32) : Error A2228: Invalid operand for SEG:    [bx]
+..\src\ABS1.ASO(33) : Error A2228: Invalid operand for OFFSET: [bx]
+..\src\ABS1.ASO(34) : Error A2228: Invalid operand for LENGTH: [bx]
+..\src\ABS1.ASO(35) : Error A2228: Invalid operand for SIZE:   [bx]
+..\src\ABS1.ASO(36) : Error A2228: Invalid operand for LENGTHOF: [bx]
+..\src\ABS1.ASO(37) : Error A2228: Invalid operand for SIZEOF: [bx]
+..\src\ABS1.ASO(38) : Error A2228: Invalid operand for HIGH:   [bx]
+..\src\ABS1.ASO(39) : Error A2228: Invalid operand for LOW:    [bx]
+..\src\ABS1.ASO(40) : Error A2228: Invalid operand for HIGHWORD: [bx]
+..\src\ABS1.ASO(41) : Error A2228: Invalid operand for LOWWORD:  [bx]
+..\src\ABS1.ASO(45) : Error A2232: Expected data label
+..\src\ABS1.ASO(46) : Error A2232: Expected data label
+..\src\ABS1.ASO(47) : Error A2232: Expected data label
+..\src\ABS1.ASO(48) : Error A2232: Expected data label
+..\src\ABS1.ASO(51) : Error A2228: Invalid operand for HIGHWORD: _TEXT

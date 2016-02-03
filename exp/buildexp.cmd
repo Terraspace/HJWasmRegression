@@ -5,12 +5,12 @@ REM BUILDEXP [<JWASM>[<JWLINK>[<LINK>]]]
 REM
 REM Use a version that passed the test as base
 REM
-SET MLBASE=\JWASM\jwasm.exe
+SET MLBASE=c:\JWASM\jwasm.exe
 if NOT (%1)==() SET MLBASE=%1
 REM
 REM Optional linker for the test
 REM
-REM SET OWLINK=\JWASM\jwlink.exe
+REM SET OWLINK=c:\JWASM\jwlink.exe
 if NOT (%2)==() SET OWLINK=%2
 REM MS LINK >= 8.0 is needed for testing SAFESEH.
 REM SET MSLINK=\VC80\bin\link.exe

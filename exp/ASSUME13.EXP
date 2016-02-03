@@ -1,0 +1,2 @@
+..\src\ASSUME13.ASO(15) : Warning A4073: Size not specified, assuming: BYTE
+..\src\ASSUME13.ASO(15) : Error A2102: Symbol not defined : f2

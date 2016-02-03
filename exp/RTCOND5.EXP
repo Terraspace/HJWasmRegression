@@ -1,0 +1,6 @@
+..\src\RTCOND5.ASO(14) : Error A2067: .ELSE clause already occured in this .IF block
+..\src\RTCOND5.ASO(22) : Error A2067: .ELSE clause already occured in this .IF block
+..\src\RTCOND5.ASO(26) : Error A2199: Syntax error in control-flow directive
+..\src\RTCOND5.ASO(30) : Error A2080: Block nesting error: .endw
+..\src\RTCOND5.ASO(33) : Error A2080: Block nesting error: .endif
+..\src\RTCOND5.ASO(36) : Error A2080: Block nesting error: .endif

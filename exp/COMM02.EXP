@@ -1,0 +1,8 @@
+..\src\COMM02.ASO(11) : Error A2143: Symbol redefinition: v1
+..\src\COMM02.ASO(17) : Error A2143: Symbol redefinition: v3
+..\src\COMM02.ASO(20) : Error A2139: Non-benign COMM redefinition: v4
+..\src\COMM02.ASO(23) : Error A2174: Cannot define as public or external: v5
+..\src\COMM02.ASO(25) : Error A2175: Positive value expected
+..\src\COMM02.ASO(27) : Error A2209: Syntax error: ax
+..\src\COMM02.ASO(28) : Error A2209: Syntax error: ,
+..\src\COMM02.ASO(29) : Error A2150: Missing operator in expression

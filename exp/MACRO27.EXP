@@ -1,0 +1,3 @@
+..\src\MACRO27.ASO(15) : Error A2227: Missing right parenthesis in expression
+..\src\MACRO27.ASO(15) : Error A2102: Symbol not defined : CStr
+..\src\MACRO27.ASO(15) : Error A2209: Syntax error: )

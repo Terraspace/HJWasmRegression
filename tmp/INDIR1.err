@@ -1,0 +1,6 @@
+..\src\INDIR1.ASO(9) : Error A2029: Multiple base registers not allowed
+..\src\INDIR1.ASO(10) : Error A2037: Cannot be used as index register: esp
+..\src\INDIR1.ASO(11) : Error A2038: Base and index register differ in size
+..\src\INDIR1.ASO(12) : Error A2038: Base and index register differ in size
+..\src\INDIR1.ASO(13) : Error A2029: Multiple base registers not allowed
+..\src\INDIR1.ASO(14) : Error A2034: Multiple index registers not allowed
