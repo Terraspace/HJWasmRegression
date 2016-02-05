@@ -20,6 +20,14 @@
 ..\src\AVX2.ASO(69) : Error A2049: Invalid instruction operands
 ..\src\AVX2.ASO(70) : Error A2049: Invalid instruction operands
 ..\src\AVX2.ASO(71) : Error A2049: Invalid instruction operands
+..\src\AVX2.ASO(72) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(73) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(74) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(75) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(76) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(77) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(78) : Error A2150: Missing operator in expression
+..\src\AVX2.ASO(79) : Error A2150: Missing operator in expression
 ..\src\AVX2.ASO(82) : Error A2049: Invalid instruction operands
 ..\src\AVX2.ASO(83) : Error A2049: Invalid instruction operands
 ..\src\AVX2.ASO(84) : Error A2049: Invalid instruction operands
